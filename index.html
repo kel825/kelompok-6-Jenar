@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/carousel.css">
+    <title>belajar bootstrap</title>
+</head>
+<body>
+    
+    <header>
+      <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">P.T. Adya Motor</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav me-auto mb-2 mb-md-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="galeri.html">Galeri</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+    
+    <main>
+    
+      <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/honda2.jpg" alt="" width="100%" height="100%">
+    
+            <div class="container">
+              <div class="carousel-caption text-start">
+                <h1>pilihan motor terbaik</h1>
+                <p>menyediakan berbagai pilihan motor dengan kualitas terbaik </p>
+                <p><a class="btn btn-lg btn-primary" href="#">klik disini</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="img/honda3.jpg" alt="" width="100%" height="100%">
+    
+            <div class="container">
+              <div class="carousel-caption">
+                <h1>terjamin exclusive</h1>
+                <p>selalu mengeluarkan produk unggulan terbaru,yang terjamin aman nyaman saat berkendara </p>
+                <p><a class="btn btn-lg btn-primary" href="#">pelajari lebih lanjut</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="img/anjay.jpg" alt="" width="50%" height="100%">
+    
+            <div class="container">
+              <div class="carousel-caption text-end">
+                <h1>antic klasic</h1>
+                <p>terlihat keren kece dan jadi magnet betina</p>
+                <p><a class="btn btn-lg btn-primary" href="#">Browse gallery</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      
+      <h1 class="text-center">Kelebihan Perusahaan</h1>
+
+      <div class="container px-4 py-5" id="featured-3">
+        
+        <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+          <div class="feature col">
+            <div class="feature-icon bg-gradient">
+              <img src="img/clasic2.jpg" alt="" style="width: 100%; height: auto;">
+            </div>
+            <h2>cakep</h2>
+            <p>nikmati sensasi mengendarai motor dengan gaya estetica,anda akan terlihat anjaaaayy!,nggak pake boong deh</p>
+            <a href="#" class="icon-link">
+              Call to action
+              <svg class="bi" width="1em" height="1em"><use xlink:href="#chevron-right"/></svg>
+            </a>
+          </div>
+          <div class="feature col">
+            <div class="feature-icon bg-gradient">
+              <img src="img/honda8.jpg" alt="" style="width: 100%; height: auto;">
+            </div>
+            <h2>bonus perlengkapan</h2>
+            <p>nggak hanya kece,dari Adya Motor selalu memberi bonus perlengkapan(gratis tanpa di pungut biaya!)seperti jas hujan,helm INK, stiker.(stnk dan sim tidak termasuk dalam kriteria) </p>
+            <a href="#" class="icon-link">
+              Call to action
+              <svg class="bi" width="1em" height="1em"><use xlink:href="#chevron-right"/></svg>
+            </a>
+          </div>
+          <div class="feature col">
+            <div class="feature-icon bg-gradient">
+              <img src="img/clacic.jpg" alt="" style="width: 100%; height: aouto;">
+            </div>
+            <h2>Montor sekarang bro!</h2>
+            <p>terlihat kece gagah dan keren ketika di kendarain ama anak cowok,bikin nempel para betina!,harga nggak usah dipikirin deh,pinjem tetangga juga bisa</p>
+            <a href="#" class="icon-link">
+              Call to action
+              <svg class="bi" width="1em" height="1em"><use xlink:href="#chevron-right"/></svg>
+            </a>
+          </div>
+        </div>
+      </div></div>
+      
+      <div class="container col-xxl-8 px-4 py-5">
+        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+          <div class="col-10 col-sm-8 col-lg-6">
+            <img src="img/vespa.jpg" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+          </div>
+          <div class="col-lg-6">
+            <h1 class="display-5 fw-bold lh-1 mb-3">kunjungi segera!</h1>
+            <p class="lead">dengan cara login @gmail anda ke kolom sekarang juga,untuk mempelajari dan mengenal lebih lanjut tentang produk dari kami, kami akan selalu mengeluar kan produk terbaik ter kece untuk memuaskan para pelanggan </p>
+            <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+              <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Primary</button>
+              <button type="button" class="btn btn-outline-secondary btn-lg px-4">Default</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+      <div class="b-example-divider"></div>
+    
+      <div class="container col-xl-10 col-xxl-8 px-4 py-5">
+        <div class="row align-items-center g-lg-5 py-5">
+          <div class="col-lg-7 text-center text-lg-start">
+            <h1 class="display-4 fw-bold lh-1 mb-3">Contac me</h1>
+            <p class="col-lg-10 fs-4">ikuti arahan dari kami,anda tinggal mengisi Email/password anda untuk mendalami perusahaan kami,jika terdapat kesalahan dalam pendaftaran Hub no 087 654 352 11,jangan lupa share koment dan suscribe channel you tube Instagram dan Tiktok kamy ya!</p>
+          </div>
+          <div class="col-md-10 mx-auto col-lg-5">
+            <form class="p-4 p-md-5 border rounded-3 bg-light">
+              <div class="form-floating mb-3">
+                <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                <label for="floatingInput">Email address</label>
+              </div>
+              <div class="form-floating mb-3">
+                <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                <label for="floatingPassword">Password</label>
+              </div>
+              <div class="checkbox mb-3">
+                <label>
+                  <input type="checkbox" value="remember-me"> Remember me
+                </label>
+              </div>
+              <button class="w-100 btn btn-lg btn-primary" type="submit">Sign up</button>
+              <hr class="my-4">
+              <small class="text-muted">By Adya Motor</small>
+            </form>
+          </div>
+        </div>
+
+
+    
+    
+      
+    </main>
+    
+    
+       <script src="js/bootstrap.bundle.js"></script>
+    
+          
+      </body>
+</html>
+    
+    
